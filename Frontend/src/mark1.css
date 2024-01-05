@@ -1,0 +1,50 @@
+#it{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* max-width: 1200px; */
+}
+
+#trend{
+  text-align: center;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+#m1{
+  background-color: rgb(0, 0, 0);
+}
+
+.p1{
+  width: fit-content;
+  /* box-sizing:unset; */
+  padding: 20px 30px;
+  border: solid rgb(255, 255, 255) 5px;
+  border-radius: 5%;
+  background-color: rgb(224, 92, 92);
+  margin: 4px;
+  }
+
+  .p1:hover{
+    border: solid red 5px;
+    background-color: white;
+    /* -ms-transform: scale(4.6); */
+    -webkit-transform: scale(1.1);
+    transform: scale(1.03);
+  }
+
+  #carti{
+    /* border: none; */
+    /* text-align: start; */
+    margin-top: 4px;
+    width: 16%;
+    cursor: pointer;
+  }
+
+  #carti img{
+    width: 16px;
+
+  }
+
